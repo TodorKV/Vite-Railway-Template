@@ -1,13 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="EN">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>IMS Geocoding Service</title>
+    <!--    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>-->
+
+    <link rel="stylesheet" type="text/css" href="./src/style.css" />
+    <script type="module" src="./src/main.ts"></script>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
+    <div id="map"></div>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBvZkQAzJVubqPixqNV02yYqw0O4TOmTq8&callback=initMap&v=weekly"
+      defer
+    ></script>
   </body>
 </html>
